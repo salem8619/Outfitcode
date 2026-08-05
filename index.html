@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>OutfitCode.in</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+    <h1>OutfitCode.in</h1>
+
+    <nav>
+        <a href="index.html">🏠 Home</a>
+<a href="#deals">🔥 Deals</a>
+<a href="about.html">👤 About</a>
+<a href="contact.html">📞 Contact</a>
+    </nav>
+
+    <input type="text" id="searchInput" placeholder="Search Products...">
+  <button id="themeToggle">🌙</button>
+</header>
+
+<section class="latest-deals" id="deals">
+
+<h2>🔥 Today's Best Deals</h2>
+
+<div class="deal-box">
+<p>👔 Shirts - Up to 70% OFF</p>
+</div>
+
+<div class="deal-box">
+<p>👕 T-Shirts - Starting ₹199</p>
+</div>
+
+<div class="deal-box">
+<p>👖 Pants - Flat 60% OFF</p>
+</div>
+
+<div class="deal-box">
+<p>🔥 Combos - Save Up to 50%</p>
+</div>
+
+  </section>
+  <section class="trending">
+
+<h2>🔥 Trending Products</h2>
+
+<div class="trending-box">
+    <div>👔 Premium Shirts</div>
+    <div>👕 Trending T-Shirts</div>
+    <div>👖 Stylish Pants</div>
+    <div>🔥 Best Combos</div>
+</div>
+
+  </section>
+<section class="categories">
+
+<h2>Shop By Category</h2>
+
+<div class="category-buttons">
+    <button onclick="filterCategory('all')">All</button>
+    <button onclick="filterCategory('shirt')">Shirts</button>
+    <button onclick="filterCategory('t-shirt')">T-Shirts</button>
+    <button onclick="filterCategory('pants')">Pants</button>
+    <button onclick="filterCategory('combo')">Combos</button>
+</div>
+
+</section>
+<h2 class="title">Featured Products</h2>
+
+<section class="products">
+
+<div class="product-card">
+  <div class="sale-badge">50% OFF</div>
+  <span class="wishlist">♡</span>
+  <img src="images/shirt.jpg" alt="Shirt">
+  <h3>Shirt</h3>
+  <p><del>₹1999</del> <span class="offer-price">₹353</span></p>
+  <div class="rating">
+⭐⭐⭐⭐⭐ <span>(4.8)</span>
+  </div>
+  <a href="https://fktr.in/07Gxyj6" class="shop-btn" target="_blank">Buy Now</a>
+<button class="share-btn">📤 Share</button>
+</div>
+
+<div class="product-card">
+  <div class="sale-badge">50% OFF</div>
+  <span class="wishlist">♡</span>
+  <img src="images/tshirt.jpg" alt="T-Shirt">
+  <h3>T-Shirt</h3>
+  <p><del>₹1399</del> <span class="offer-price">₹699</span></p>
+  <div class="rating">
+⭐⭐⭐⭐☆ <span>(4.3)</span>
+  </div>
+  <a href="#" class="shop-btn" target="_blank">Buy Now</a>
+<button class="share-btn">📤 Share</button>
+</div>
+
+<div class="product-card">
+  <div class="sale-badge">50% OFF</div>
+  <span class="wishlist">♡</span>
+  <img src="images/pants.jpg" alt="Pants">
+  <h3>Pants</h3>
+  <p><del>₹2999</del> <span class="offer-price">₹447</span></p>
+  <div class="rating">
+⭐⭐⭐⭐⭐ <span>(4.7)</span>
+  </div>
+<a href="https://fktr.in/2H69q7q" class="shop-btn" target="_blank">Buy Now</a>
+<button class="share-btn">📤 Share</button>
+</div>
+
+<div class="product-card">
+  <div class="sale-badge">50% OFF</div>
+  <span class="wishlist">♡</span>
+  <img src="images/combo.jpg" alt="Shirt Pants Combo">
+  <h3>Shirt Pants Combo</h3>
+  <p><del>₹3999</del> <span class="offer-price">₹1200</span></p>
+  <div class="rating">
+⭐⭐⭐⭐☆ <span>(4.5)</span>
+  </div>
+  <a href="#" class="shop-btn" target="_blank">Buy Now</a>
+<button class="share-btn">📤 Share</button>
+</div>
+  
+</section>
+<footer class="footer">
+<p>© 2026 OutfitCode.in | All Rights Reserved.</p>
+
+  <p>
+<a href="index.html">Home</a> |
+<a href="about.html">About Us</a> |
+<a href="contact.html">Contact Us</a> |
+<a href="privacy.html">Privacy Policy</a> |
+<a href="disclosure.html">Affiliate Disclosure</a>
+</p>
+</footer>
+  
+<script src="script.js"></script>
+</body>
+</html>
